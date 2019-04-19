@@ -1,0 +1,127 @@
+#wrapper {
+    width: 100%;
+}
+#page-wrapper {
+    padding: 4.5em 2em 2em;
+	background-color: #F1F1F1;
+}
+.navbar-top-links {
+    margin-right: 0;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-top-links li a {
+    padding: 15px;
+    min-height: 50px;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+}
+.navbar-top-links .dropdown-messages {
+    margin-left: 5px;
+}
+.navbar-top-links .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-top-links .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar .sidebar-search {
+    padding: 15px;
+}
+.sidebar .arrow {
+    float: right;
+}
+
+.sidebar .fa.arrow:before {
+    content: "\f104";
+}
+
+.sidebar .active>a>.fa.arrow:before {
+    content: "\f107";
+}
+
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+    border-bottom: 0!important;
+	margin-bottom: 0;
+}
+
+.sidebar .nav-second-level li a {
+    padding-left: 53px;
+    font-size: .9em;
+}
+.sidebar .nav-third-level li a {
+    padding-left: 52px;
+}
+@media(min-width:768px){
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+
+
+/*Niral added css*/
+.astrick {
+    color: red;
+}
+.delete_img{cursor: pointer;}
+.margin-bottom{margin:3px;}
+/*Ritesh added css*/
+.datepicker{z-index: 10000;}
+.bd-dragimage .eachImage {height: 92px;margin: 5px 5px 14px;}
+.bd-dragimage .eachImage .preview {height: 92px;padding: 5px;display: block;}
+.bd-dragimage .eachImage .preview p{  height: 22px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.bd-dragimage .eachImage .preview img {height: 56%;margin: 0 auto 8px;width: auto;max-width: 100%;}
+.bd-dragimage .eachImage .preview .image_ext img {height: 100%;box-shadow: none;}
+.image_ext .img_show {color: #fff;font-size: 15px;font-weight: bold;left: 39px;position: absolute;top: 14px;z-index: 1111;}
+.bd-dragimage .image_part {min-height: 0px;}
+.bd-dragimage .eachImage .preview .image_ext {height: 46px;}
+.form-group.dropzone{padding: 0; min-height: 0;}
+.dropzone, .dropzone *, .dropzone-previews, .dropzone-previews *{min-height: inherit;}
+.bd-dragimage .image_part{min-height: inherit; text-align: center; padding-top: 30px;}
+.panel.tile .panel-body h2{padding-right: 0;}
+.panel.tile .panel-body h2 > a.attachment{position: static; float: right; padding: 0 5px;}
+.panel.tile .panel-body h2 > a.attachment:first-child{padding-right: 0;}
